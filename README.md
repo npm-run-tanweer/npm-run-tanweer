@@ -172,22 +172,6 @@ const tanweer = {
 <!-- ═══════════════════ SECTION DIVIDER ═══════════════════ -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<div align="center">
-
-<a href="https://github.com/npm-run-tanweer/PromptHire">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=npm-run-tanweer&repo=PromptHire&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" />
-</a>
-<a href="https://github.com/npm-run-tanweer/AcePilot">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=npm-run-tanweer&repo=AcePilot&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" />
-</a>
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════ SECTION DIVIDER ═══════════════════ -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 ## 🌐 Let's Connect
 
 <div align="center">
