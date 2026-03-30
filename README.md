@@ -5,11 +5,11 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Tanweer%20Jamal&fontSize=52&fontColor=58a6ff&fontAlignY=35&desc=AI%20Builder%20%7C%20Full%20Stack%20Developer%20%7C%20SaaS%20Architect&descSize=18&descAlignY=55&descColor=8b949e&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Tanweer%20Jamal&fontSize=52&fontColor=58a6ff&fontAlignY=35&desc=AI%20Builder%20%7C%20Full%20Stack%20Developer%20%7C%20SaaS%20Architect&descSize=18&descAlignY=55&descColor=8b949e&animation=fadeIn&fontFamily=Space%20Grotesk" width="100%" />
 
 <!-- ANIMATED TYPING -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%A5+Building+AI-Powered+Products+That+Matter;%F0%9F%9A%80+Shipping+Fast%2C+Scaling+Smart;%F0%9F%A7%A0+Turning+Ideas+Into+Production-Ready+SaaS" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%A5+Building+AI-Powered+Products+That+Matter;%F0%9F%9A%80+Shipping+Fast%2C+Scaling+Smart;%F0%9F%A7%A0+Turning+Ideas+Into+Production-Ready+SaaS" alt="Typing SVG" />
 </a>
 
 <br/>
