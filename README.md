@@ -70,17 +70,11 @@ const tanweer = {
 
 ### ⚙️ Backend
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" />
 
 ### 🗄️ Database & Cloud
 
 <img src="https://skillicons.dev/icons?i=mongodb,postgresql,firebase,vercel,aws&theme=dark" />
-
-### 🤖 AI & ML
-
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
 
 ### 🛠️ Tools & DevOps
 
@@ -97,12 +91,12 @@ const tanweer = {
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=npm-run-tanweer&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&ring_color=1f6feb&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=npm-run-tanweer&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=1f6feb&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" alt="Streak Stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=npm-run-tanweer&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&ring_color=1f6feb&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=npm-run-tanweer&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=1f6feb&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" alt="Streak Stats" />
 
 <br/><br/>
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=npm-run-tanweer&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=npm-run-tanweer&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&cache_seconds=86400" alt="Top Languages" />
 
 </div>
 
@@ -176,21 +170,6 @@ const tanweer = {
 <!-- ═══════════════════ SECTION DIVIDER ═══════════════════ -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=npm-run-tanweer&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10)](https://github.com/npm-run-tanweer)
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════ SECTION DIVIDER ═══════════════════ -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 🚀 Featured Projects
-
 <div align="center">
 
 <a href="https://github.com/npm-run-tanweer/PromptHire">
@@ -236,66 +215,9 @@ const tanweer = {
 
 <br/>
 
-<!-- ═══════════════════ SECTION DIVIDER ═══════════════════ -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 <!-- FOOTER -->
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" width="100%" />
-
-<br/>
 
 <img src="https://img.shields.io/badge/Made%20with-❤️%20and%20☕-1f6feb?style=for-the-badge" />
 
 </div>
-
-<!--
-  ╔══════════════════════════════════════════════════════════════════╗
-  ║  📄 GITHUB ACTION — SNAKE ANIMATION WORKFLOW                   ║
-  ║                                                                  ║
-  ║  Save the YAML below as:                                         ║
-  ║  .github/workflows/snake.yml                                     ║
-  ║  inside your profile repo (npm-run-tanweer/npm-run-tanweer)      ║
-  ║                                                                  ║
-  ║  Then enable Actions → "Read & write" workflow permissions       ║
-  ║  and run the workflow manually once.                              ║
-  ╚══════════════════════════════════════════════════════════════════╝
-
-  ─────────────── START OF snake.yml ───────────────
-
-  name: Generate Snake
-
-  on:
-    schedule:
-      - cron: "0 0 * * *"        # Runs every day at midnight UTC
-    workflow_dispatch:             # Allows manual trigger from Actions tab
-
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      permissions:
-        contents: write            # Required to push to output branch
-
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-
-        - name: Generate Snake Animation
-          uses: Platane/snk@v3
-          with:
-            github_user_name: npm-run-tanweer
-            outputs: |
-              dist/github-snake.svg
-              dist/github-snake-dark.svg?palette=github-dark
-
-        - name: Push to output branch
-          uses: crazy-max/ghaction-github-pages@v4
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  ─────────────── END OF snake.yml ───────────────
--->
