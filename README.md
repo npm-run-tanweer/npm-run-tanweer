@@ -7,7 +7,7 @@
 <!-- HEADER BANNER -->
 <!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Tanweer%20Jamal&fontSize=52&fontColor=58a6ff&fontAlignY=35&desc=AI%20Builder%20%7C%20Full%20Stack%20Developer%20%7C%20SaaS%20Architect&descSize=18&descAlignY=55&descColor=8b949e&animation=fadeIn" width="100%" /> -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Shadows+Into+Light&weight=700&size=52&duration=3000&pause=1000000&color=58A6FF&center=true&vCenter=true&repeat=false&width=700&height=70&lines=Tanweer+Jamal" alt="Tanweer Jamal" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=52&duration=3000&pause=1000000&color=58A6FF&center=true&vCenter=true&repeat=false&width=700&height=70&lines=Tanweer+Jamal" alt="Tanweer Jamal" />
 
 <!-- ANIMATED TYPING -->
 <a href="https://git.io/typing-svg">
