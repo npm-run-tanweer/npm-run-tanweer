@@ -1,0 +1,66 @@
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║  🐍 CONTRIBUTION SNAKE ANIMATION — GitHub Action               ║
+# ║                                                                  ║
+# ║  This workflow generates a snake animation SVG from your         ║
+# ║  GitHub contribution graph using Platane/snk.                    ║
+# ║                                                                  ║
+# ║  SETUP:                                                          ║
+# ║  1. Place this file at:                                          ║
+# ║     .github/workflows/snake.yml                                  ║
+# ║     inside your profile repo (npm-run-tanweer/npm-run-tanweer)   ║
+# ║                                                                  ║
+# ║  2. Go to repo → Settings → Actions → General                   ║
+# ║     → Workflow permissions → Select "Read and write permissions" ║
+# ║     → Check "Allow GitHub Actions to create and approve PRs"     ║
+# ║     → Save                                                      ║
+# ║                                                                  ║
+# ║  3. Go to repo → Actions tab                                    ║
+# ║     → Select "Generate Snake" workflow on the left               ║
+# ║     → Click "Run workflow" → "Run workflow"                      ║
+# ║                                                                  ║
+# ║  4. After successful run, an `output` branch is created with:    ║
+# ║     - github-snake.svg         (light theme)                     ║
+# ║     - github-snake-dark.svg    (dark theme)                      ║
+# ║                                                                  ║
+# ║  5. The README.md already references these files from the        ║
+# ║     `output` branch — no further changes needed!                 ║
+# ║                                                                  ║
+# ║  The workflow runs automatically every day at midnight UTC.      ║
+# ║  You can also trigger it manually anytime from the Actions tab.  ║
+# ╚══════════════════════════════════════════════════════════════════╝
+
+name: Generate Snake
+
+on:
+  # Runs automatically every day at midnight UTC
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Allows you to manually trigger the workflow from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to push generated SVGs to the output branch
+
+    steps:
+      # Step 1: Generate the snake SVGs from your contribution graph
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: npm-run-tanweer
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # Step 2: Push the generated SVGs to the `output` branch
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
